@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.task-section {
+    margin-bottom: 20px;
+}
+
+.task-section h2 {
+    color: #333;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 18px;
+    
+}
+
+.task-list ul {
+     /* Régler la valeur de marge selon mes préférences */
+}
+
+.task-list ul:last-child {
+    border-bottom: none;
+}
+
+.delete-task {
+    background-color: #ca0808;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
